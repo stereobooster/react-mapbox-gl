@@ -14,7 +14,7 @@
     "prepublish": "npm run clean && npm run build",
     "version": "npm run build",
     "postversion": "git push && git push --tags",
-    "doc": "typedoc src --out generated-docs --module commonjs --excludeExternals --mode modules --theme minimal --logger console"
+    "doc": "typedoc src --out generated-docs --module commonjs --excludeExternals --mode modules --theme minimal --logger console --json ./doc.json"
   },
   "jest": {
     "transform": {

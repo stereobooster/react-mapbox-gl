@@ -912,8 +912,11 @@ img { max-width: 100%; }
 <div class="container container-main">
 	<div class="content-wrap">
 		<div class="tsd-panel tsd-typography">
-			<h1 id="react-mapbox-gl">react-mapbox-gl</h1>
-			<p><img src="docs/london-cycle-example.gif" alt="London cycle example gif" title="London cycle example gif"></p>
+			<h1 id="react-mapbox-gl-doc-docs-api-md-">React-mapbox-gl <a href="docs/API.md">Doc</a></h1>
+			<p><a href="https://travis-ci.org/alex3165/react-mapbox-gl"><img src="https://travis-ci.org/alex3165/react-mapbox-gl.svg?branch=master" alt="Build Status"></a>
+				<a href="https://www.npmjs.com/package/react-mapbox-gl"><img src="https://img.shields.io/npm/v/react-mapbox-gl.svg?style=flat" alt="npm version"></a>
+				<br/><br/>
+			<img src="docs/london-cycle-example.gif" alt="London cycle example gif" title="London cycle example gif"></p>
 			<p>React wrapper of <a href="https://www.mapbox.com/mapbox-gl-js/api/">mapbox-gl-js</a> which bring the API to a react friendly way.
 			On top of the layers provided, <code>react-mapbox-gl</code> add some React rendered layers, projected using <code>map.project</code>.</p>
 			<p>Include the following elements:</p>
@@ -939,15 +942,16 @@ img { max-width: 100%; }
 				<p>The source files are written in Typescript, you can consume the compiled files in Javascript or Typescript and get the type definition files.</p>
 			</blockquote>
 			<h2 id="do-you-need-mapbox-gl-js-and-react-mapbox-gl-">Do you need <code>mapbox-gl-js</code> and <code>react-mapbox-gl</code></h2>
-			<p>Mapbox-gl expose a map rendered in a canvas using web gl this mean:</p>
+			<p>Mapbox-gl expose a map rendered in a canvas using WebGl which mean:</p>
 			<ul>
-				<li>All the shapes are in vector</li>
+				<li>Vector tiles</li>
 				<li>Fast rendering</li>
 				<li>Smooth transitions</li>
-				<li>All the data are on the client side, you can interact with anything on the map</li>
-				<li>You can customize everything on the map using <a href="https://www.mapbox.com/mapbox-studio/">mapbox studio</a></li>
+				<li>Data on the client side (interact with anything on the map)</li>
+				<li>Highly customizable using <a href="https://www.mapbox.com/mapbox-studio/">mapbox studio</a></li>
+				<li>Considerable bundle size</li>
 			</ul>
-			<p>See all the features of the map exposed by <a href="https://www.mapbox.com/maps/">mapbox-gl-js</a></p>
+			<p>Details of all the features exposed: <a href="https://www.mapbox.com/maps/">mapbox-gl-js</a></p>
 			<h2 id="how-to-start">How to start</h2>
 			<pre><code class="lang-javascript">npm install react-mapbox-gl --save
 </code></pre>
@@ -1000,7 +1004,7 @@ img { max-width: 100%; }
 					</ul>
 				</li>
 			</ul>
-			<h2 id="-api-docs-api-md-"><a href="docs/API.md">API</a></h2>
+			<h2 id="-api-documentation-docs-api-md-"><a href="docs/API.md">API Documentation</a></h2>
 		</div>
 		<div style="position:relative;"><a name="typedoc-main-index" class="tsd-anchor"></a></div>
 		<section class="tsd-panel-group tsd-index-group">
