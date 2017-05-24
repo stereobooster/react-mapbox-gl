@@ -4,7 +4,7 @@
   "private": true,
   "description": "An example for react-mapbox-gl",
   "license": "MIT",
-  "homepage": "http://alex3165.github.io/react-mapbox-gl",
+  "homepage-bak": "http://alex3165.github.io/react-mapbox-gl",
   "scripts": {
     "link": "./link-react-mapbox-gl.sh",
     "start": "react-scripts start",
